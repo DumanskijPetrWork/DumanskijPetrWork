@@ -35,10 +35,12 @@
 					}
 				}
 
-				.container {
+				body {
 					background-color: black;
-
 					width: 100%;
+				}
+
+				section.hello {
 					height: 300px;
 
 					display: flex;
@@ -65,13 +67,15 @@
 				}
 			</style>
 
-			<div class="container">
-				<h1>
-					Hey there
-					<div class="hi">👋</div>
-				</h1>
-				<h3>I'm a fullstack web developer</h3>
-			</div>
+			<body>
+				<section class="hello">
+					<h1>
+						Hey there
+						<div class="hi">👋</div>
+					</h1>
+					<h3>I'm a fullstack web developer</h3>
+				</section>
+			</body>
 		</div>
 	</foreignObject>
 </svg>
